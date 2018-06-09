@@ -8,5 +8,6 @@ def fizzbuzz
   end 
   
   if int % 3 && 5 == 0 
-    puts "Fizz"
+    puts "FizzBuzz"
+  end 
 end 
