@@ -4,12 +4,15 @@ def fizzbuzz(int)
     return "Fizz"
   end
   
-  if int % 5
+  elsif int % 5
     return "Buzz"
   end 
   
-  if int % 3 && 5
+  elsif int % 3 && 5
     return "FizzBuzz"
   end 
+  
+  else
+    return nil 
   
 end 
